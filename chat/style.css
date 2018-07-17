@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-image: url(images/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background:rgba(2,2,230,0.7);
+    height:auto;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+#logo{
+    font-size:35px;
+    font-family: "Comic Sans MS"; 
+    color:#333;
+    float:left;
+    display:inline-block;
+    padding:10px 20px;
+}
+body #h1{
+    margin-top:90px;
+    font-size:30px;
+    width:84%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: "Comic Sans MS"; 
+}
+body h2{
+    font-size:20px;
+    width:84%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#body{
+    background: rgba(255,255,255,0.9);
+    margin-top: 40px; 
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+    height:300px;
+}
+#inner{
+    padding-top:50px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#inner h1{
+    font-size:30px;
+    color:rgba(10,20,0,1);
+    font-family: "Comic Sans MS"; 
+}
+#inner #form{
+    padding-top:30px;
+}
+input[type=text]{
+    width:80%;
+    height:40px;
+    padding:15px;
+    border-radius: 2px;
+    background-color:#bbb;
+    font-size:20px;
+}
+input[type=submit]{
+    width:auto;
+    padding:8px;
+    margin-top:30px;
+    border-radius: 2px;
+    background-color:#3c3;
+    font-size:20px;
+}
